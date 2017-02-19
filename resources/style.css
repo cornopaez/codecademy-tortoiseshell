@@ -80,6 +80,8 @@ html {
 	flex-direction: column;
 }
 
+/*Icone*/
+
 .icons {
 	display: inherit;
 	justify-content: center;
@@ -103,3 +105,33 @@ html {
 .icons .item img {
 	max-width: 4rem;
 }
+
+/*Details*/
+
+.details {
+	padding-bottom: 4rem;
+	display: flex;
+	justify-content: center;
+}
+
+.details .item {
+	display: inherit;
+	flex-direction: column;
+	width: 35%;
+	padding-right: 5%;
+}
+
+.details .item .title {
+	padding: 0.5rem 1.25rem;
+	background: cadetblue;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	width: 10rem;
+	margin-bottom: 1rem;
+}
+
+.details .item .text {
+	line-height: 1.5;
+}
+
