@@ -10,6 +10,7 @@ html {
 	height: 30rem;
 	background: url(glasses-bg.png) no-repeat center;
 	background-size: cover;
+	padding: 1rem;
 }
 
 .banner .container {
@@ -19,13 +20,11 @@ html {
 }
 
 .banner .container nav {
-	position: absolute;
 	background: cadetblue;
 	color: white;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	top: 1rem;
 	width: 100%;
 }
 
@@ -47,6 +46,10 @@ html {
 }
 
 /*Links*/
+
+.links span {
+	display: none;
+}
 
 .links ul {
 	display: inline-flex;
@@ -157,4 +160,28 @@ footer .container {
 	padding-left: 1rem;
 	display: inherit;
 	align-items: center;
+}
+
+/*Queries
+-------------------------------------------------*/
+
+/*Tablet*/
+@media only screen and (max-width: 1024px) {
+
+	.banner {
+		padding: 0;
+		height: 22rem;
+	}
+
+	.banner .container {
+		max-width: 100%;
+	}
+
+	.detail {
+		margin-top: 5rem;
+		padding: 0.75rem 4rem;
+		font-size: 1.33rem;
+		margin-right: 3rem;
+	}
+
 }
