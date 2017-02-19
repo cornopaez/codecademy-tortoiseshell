@@ -19,11 +19,14 @@ html {
 }
 
 .banner .container nav {
+	position: absolute;
 	background: cadetblue;
 	color: white;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	top: 1rem;
+	width: 100%;
 }
 
 /*Logo*/
@@ -71,3 +74,32 @@ html {
 
 /*Contant
 ---------------------------------------------*/
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.icons {
+	display: inherit;
+	justify-content: center;
+}
+
+.icons .item {
+	display: inherit;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3rem;
+	align-items: center;
+	height: 8rem;
+	width: 5rem;
+	text-align: center;
+}
+
+.icones .item .img-wrap {
+	height: 100%;
+}
+
+.icons .item img {
+	max-width: 4rem;
+}
